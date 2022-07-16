@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;600;700&family=Overpass:wght@400;700&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root{
+/*Colors
+### Primary
+*/
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+/*Neutral*/
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Red Hat Display';
+    background-color: var(--Pale-blue);
+}
+
+.container{
+    width: 400px;
+    height: 630px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1{
+    color: var(--Dark-blue);
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.text{
+     color: var(--Desaturated-blue);
+     text-align: center;
+     margin: 30px;
+     margin-top: 10px;
+}
+
+.items{
+    width: 320px;
+    height: 80px;
+    background-color: rgba(209, 194, 197, 0.556);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 40px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.item2{
+    margin-right: 40px;
+}
+
+.year{
+    margin-top: -15px;
+    color: var(--Desaturated-blue);
+}
+
+.item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+button{
+    border: none;
+    width: 320px;
+    height: 50px;
+    background-color: var(--Bright-blue);
+    color: #fff;
+    border-radius: 8px;
+    margin: 25px;
+    margin-left: 40px;
+    font-weight: 700;
+    box-shadow: 0 5px rgb(186, 182, 182);
+}
+
+.order{
+    color: var(--Dark-blue);
+    text-align: center;
+    margin-top: -5px;
+}
+
+.plan{
+    color: var(--Dark-blue);
+}
